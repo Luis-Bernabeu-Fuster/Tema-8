@@ -11,7 +11,8 @@ class FormaTest {
         assertEquals("Forma{nombre='Rectangulo'}", new Forma("Rectangulo").toString());
         assertEquals("Forma{nombre='Cilindro'}", new Forma("Cilindro").toString());
     }
-
+}
+class AreaTest{
     @Test
     public void testFormaDevolverArea() {
         assertEquals(4 * Math.PI * Math.pow(15, 2), new Esfera("Esfera", 15).getArea());
